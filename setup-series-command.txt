@@ -1,0 +1,170 @@
+cd Desktop/
+  408  sudo mkdir sensor_tag_project
+  409  cd sensor_tag_project/
+  410  clear
+  411  ls -a
+  412  clear
+  413  node -v
+  414  npm =v
+  415  npm -v
+  416  clear
+  417  sudo apt-get update
+  418  sudo apt-get upgrade
+  419  sudo apt-get dist-upgrade
+  420  sudo reboot
+  421  sudo apt-get -y install -y npm –upgrade
+  422  sudo apt-get -y install -y npm –-upgrade
+  423  sudo apt-get -y install bluez build-essential libglib2.0-
+  424  clear
+  425  sudo pip install bluepy
+  426  clear
+  427  sudo hcitool lescan
+  428  clear
+  429  cd se
+  430  cd Desktop/
+  431  cd sensor_tag_project/
+  432  clear
+  433  sudo npm install -g node-gyp
+  434  python
+  435  node-gyp --python /path/to/executable/python
+  436  sudo node-gyp --python /path/to/executable/python
+  437  sudo node-gyp configure --python /path/to/executable/python
+  438  sudo node-gyp --python /path/to/executable/python
+  439  sudo node-gyp build --python /path/to/executable/python
+  440  sudo node-gyp --python /path/to/executable/python
+  441  sudo node-gyp install --python /path/to/executable/python
+  442  $ npm config set python /path/to/executable/python
+  443  sudo npm config set python /path/to/executable/python
+  444  sudo node-gyp configure
+  445  sudo node-gyp configure --msvs_version=2015
+  446  sudo sudo apt-get install bluetooth bluez libbluetooth-dev libudev-dev
+  447  sudo apt-get install bluetooth bluez libbluetooth-dev libudev-dev
+  448  sudo ln -s /usr/bin/nodejs /usr/bin/node
+  449  sudo pkg install gmake
+  450  sudo kldunload ng_ubt
+  451  npm install noble
+  452  sudo npm install noble
+  453  sudo n v6.9.1
+  454  node -v
+  455  npm -v
+  456  sudo npm install noble
+  457  sudo npm audit fix
+  458  sudo npm fix
+  459  sudo npm install noble
+  460  sudo npm install node-gyp -g
+  461  sudo apt-get install make
+  462  sudo apt-get install g++
+  463  sudo npm install noble
+  464  cd /root/.npm
+  465  sudo cd  /root/.npm
+  466  sudo cd /root/.npm
+  467  cd /root/.npm
+  468  ls -a
+  469  cd /root
+  470  sudo cd /root
+  471  cd ~/.node-gyp
+  472  cd ~
+  473  ls -a
+  474  cd .npm
+  475  ls -a
+  476  cd ..
+  477  sudo npm install node-gyp -g
+  478  cd Desktop/
+  479  cd sensor_tag_project/
+  480  ls -a
+  481  cd node_modules/
+  482  ls -a
+  483  clear
+  484  cd ..
+  485  ls -a
+  486  clear
+  487  ls -a
+  488  clear
+  489  ls -a
+  490  sudo npm install --unsafe-perm --verbose -g sails
+  491  clear
+  492  sudo npm install node-gyp -g
+  493  sudo npm install noble
+  494  sudo n install v8.0.0
+  495  sudo n v8.0.0
+  496  node -v
+  497  npm -v
+  498  cd Desktop/
+  499  cd sensor_tag_project/
+  500  clear
+  501  sudo setcap cap_net_raw+eip $(eval readlink -f `which node`)
+  502  npm install noble
+  503  sudo npm install noble
+  504  npm WARN sensor_tag_project Invalid dependency: wide-align undefined
+  505  sudo n v8.11.1
+  506  node -v
+  507  npm -v
+  508  cd Desktop/
+  509  cd sensor_tag_project/
+  510  clear
+  511  node -v
+  512  clear
+  513  sudo npm install noble
+  514  sudo setcap cap_net_raw+eip $(eval readlink -f which node)
+  515  sudo apt-get install libcap2-bin
+  516  sudo npm install noble-device
+  517  sudo npm install sensortag
+  518  ls -a
+  519  clear
+  520  ls -a
+  521  cd node_modules/
+  522  ls
+  523  cd sensortag/
+  524  clear
+  525  ls -a
+  526  node test.js
+  527  sudo npm install
+  528  sudo npm i npm@latest -g
+  529  sudo npm install
+  530  sudo npm audit fix
+  531  clear
+  532  sudo npm install
+  533  node test.js
+  534  clear
+  535  sudo npm install
+  536  clear
+  537  sudo chown -R $(whoami) ~/.npm
+  538  sudo chown -R $(whoami) /usr/lib/node_modules
+  539  cd ~
+  540  sudo chown -R $(whoami) /usr/lib/node_modules
+  541  cd Desktop/
+  542  cd sensor_tag_project/
+  543  clear
+  544  ls -a
+  545  cd node_modules/
+  546  ls
+  547  cd sensortag/
+  548  clear
+  549  ls
+  550  cd ..
+  551  ls -a
+  552  cd usr
+  553  clear
+  554  sudo chown -R $(whoami) /usr/lib/node_modules
+  555  sudo chown -R $(whoami) /usudo chown -R $(whoami) /usr/lib/node_modulessr/lib/node_modules
+  556  sudo chown -R $(whoami) /usr/lib/node_modules
+  557  sudo chown usr/lib/node_modules
+  558  clear
+  559  cd sensortag/
+  560  clear
+  561  sudo chown -R $(whoami) /usr/lib/node_modules
+  562  clear
+  563  sudo npm install
+  564  sudo npm install --unsafe-perm
+  565  node test.js
+  566  sudo node test.js
+  567  clear
+  568  sudo node test.js
+  569  clear
+  570  cd Desktop/
+  571  cd sensor_tag_vibrational_analysis/
+  572  clear
+  573  git init
+  574  clear
+  575  history
+

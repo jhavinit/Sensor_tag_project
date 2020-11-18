@@ -1,0 +1,55 @@
+// RUN ALL WITH "sudo"
+// TRY --unsafe-perm when getting error with npm
+// Some commands may run into error
+// Repo: https://github.com/jhavinit/sensor_tag_vib_analysis
+
+1.* Install rasbian on rpi3+
+  * Enable bluetooth and activate it
+  * Use SensorTag cc2650 stk
+  * USB2.0 cable
+2. sudo apt-get update
+3. sudo apt-get upgrade
+4. sudo apt-get dist-upgrade --> sudo reboot
+5. sudo apt-get install apache2 -y
+5. sudo apt-get install php libapache2-mod-php -y
+6. Install nodejs: v8.11.1
+7. npm version: 6.12.0
+8. Go to https://github.com/sandeepmistry/node-sensortag
+9. Python v2.7, v3.5, v3.6, or v3.7
+   make
+   A proper C/C++ compiler toolchain, like GCC
+10. npm install -g node-gyp -no errors
+11. npm config set python /path/to/executable/python
+11. alternative : sudo npm config set python /path/to/executable/python
+12. node-gyp configure
+13. node-gyp configure --msvs_version=2015
+14. node-gyp build
+15. sudo apt-get install bluetooth bluez libbluetooth-dev libudev-dev
+16. sudo ln -s /usr/bin/nodejs /usr/bin/node
+17. npm install noble
+18. sudo setcap cap_net_raw+eip $(eval readlink -f which node)
+19. sudo apt-get install libcap2-bin
+20. npm install noble-device
+21. npm install sensortag
+22. cd /home/pi/Desktop/sensor_tag_project/node_modules/sensortag
+23. sudo npm install --unsafe-perm
+
+// COMMON ERRORS:
+1. gyp ERR! stack Error: EACCES: permission denied
+soln: try --unsafe-perm
+2. Can't find Python executable “/path/to/executable/python2.7”, you can set the PYTHON env variable
+soln: npm config set python $(which python)
+
+// SOME COMMANDS IN "REVERSE ORDER":
+1. sudo chown -R $(whoami) /usr/lib/node_modules
+2. sudo chown -R $(whoami) ~/.npm
+3. sudo npm audit fix and sudo npm fix
+4. sudo npm i npm@latest -g
+5. sudo npm install --unsafe-perm --verbose -g sails
+6. sudo apt-get install make
+7. sudo apt-get install g++
+8. sudo apt-get install bluetooth bluez libbluetooth-dev libudev-dev
+9. sudo node-gyp install --python /path/to/executable/python
+10. sudo npm install -g node-gyp
+11. sudo pip install bluepy
+12. sudo apt-get -y install bluez build-essential libglib2.0-
